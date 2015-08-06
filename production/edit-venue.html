@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Yellow Wish </title>
+    <link rel="shortcut icon" href="images/yellow-wish-glass-32x32.png">
+    <!-- Bootstrap core CSS -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="fonts/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+
+    <!-- Custom styling plus plugins -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/maps/jquery-jvectormap-2.0.1.css" />
+    <link href="css/icheck/flat/green.css" rel="stylesheet" />
+    <link href="css/floatexamples.css" rel="stylesheet" type="text/css" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/nprogress.js"></script>
+    <script>
+        NProgress.start();
+    </script>
+    
+    <!--[if lt IE 9]>
+        <script src="../assets/js/ie8-responsive-file-warning.js"></script>
+        <![endif]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+
+<body class="nav-md">
+
+    <div class="container body">
+
+
+        <div class="main_container">
+
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="home.html" class="site_title"><img src="images/yellow-wish-logo.png" class="logo"></a>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <!-- menu prile quick info -->
+                    <div class="profile">
+                        <div class="profile_pic">
+                            <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Welcome,</span>
+                            <h2>Anthony Fernando</h2>
+                        </div>
+                    </div>
+                    <!-- /menu prile quick info -->
+
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+
+                        <div class="menu_section">
+                            <h3>General</h3>
+                            <ul class="nav side-menu">
+                                <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="home.html">Dashboard</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-edit"></i> Manage Booking <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="booked.html">Booked </a>
+                                        </li>
+                                        <li><a href="booked-unpaid.html">Booked Unpaid</a>
+                                        </li>
+                                        <li><a href="booked-paid.html">Paid</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-map-marker"></i> Venue <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="venue-list.html">Venue List</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="publishable-rooms.html"><i class="glyphicon glyphicon-bed hotel-icon"></i> Publishable Rooms</span></a>
+                                </li>                               
+                            </ul>
+                        </div>
+                       
+
+                    </div>
+                    <!-- /sidebar menu -->
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+
+                <div class="nav_menu">
+                    <nav class="" role="navigation">
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="images/img.jpg" alt="">John Doe
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
+                                    <li><a href="javascript:;">  Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="badge bg-red pull-right">50%</span>
+                                            <span>Settings</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">Help</a>
+                                    </li>
+                                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+
+            <div class="right_col" role="main">
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                                <div class="x_content">
+                                    <form action="choices/form_upload.html" class="dropzone" style="border: 1px solid #e5e5e5; height: 200px; "></form>
+                                </div>
+                                <form class="form-horizontal form-label-left">
+                                    <div class="form-group">
+                                        <label>Username</label>
+                                        <input type="text" class="form-control venue-field" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                        <input type="password" class="form-control venue-field" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Confirm Password</label>
+                                        <input type="password" class="form-control venue-field" placeholder="">
+                                    </div>
+                                </form>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 col-md-offset-1">
+                            <h2 class="venue-header">Venue Information</h2>
+                                <form class="form-horizontal form-label-left">
+                                    <div class="form-group">
+                                        <label>Venue Name</label>
+                                        <input type="text" class="form-control venue-field" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Email Address</label>
+                                        <input type="email" class="form-control venue-field" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Contact Number</label>
+                                        <input type="text" class="form-control venue-field" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>City</label>
+                                        <select class="form-control venue-field">
+                                            <option>Oh yeah!</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Map Location Link</label>
+                                        <input type="email" class="form-control venue-field" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Street Address</label>
+                                        <textarea class="form-control venue-field">
+                                            
+                                        </textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Description</label>
+                                        <textarea class="form-control venue-field">
+                                            
+                                        </textarea>
+                                    </div>                                                                        
+                                </form>                            
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 col-md-offset-1">
+                                <form class="form-horizontal form-label-left">
+                                    <h2 class="venue-header">Venue Experience & Amenity</h2>
+                                    <div class="form-group">
+                                        <label>Experience</label>
+                                        <select class="form-control venue-field">
+                                            <option>Oh yeah!</option>
+                                        </select>
+                                    </div>
+                                    <a href="#" class="add-venue-btn">Update Venue</a>
+                                </form>
+                        </div>                        
+
+            </div>
+            <!-- /page content -->
+
+    <div id="custom_notifications" class="custom-notifications dsp_none">
+        <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
+        </ul>
+        <div class="clearfix"></div>
+        <div id="notif-group" class="tabbed_notifications"></div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- chart js -->
+    <script src="js/chartjs/chart.min.js"></script>
+    <!-- bootstrap progress js -->
+    <script src="js/progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="js/nicescroll/jquery.nicescroll.min.js"></script>
+    <!-- icheck -->
+    <script src="js/icheck/icheck.min.js"></script>
+
+    <script src="js/custom.js"></script>
+    <!-- dropzone -->
+    <script src="js/dropzone/dropzone.js"></script>
+
+</body>
+
+</html>
