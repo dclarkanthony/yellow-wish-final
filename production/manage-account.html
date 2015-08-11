@@ -128,7 +128,10 @@
                                     <span class=" fa fa-angle-down"></span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
-                                    <li><a href="manage-account.html">  Manage Account</a>
+                                    <li>
+                                        <a href="manage-account.html">
+                                            <span>Manage Account</span>
+                                        </a>
                                     </li>
                                     <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
                                     </li>
@@ -144,8 +147,24 @@
             <div class="right_col" role="main">
                         <div class="col-md-3 col-sm-12 col-xs-12">
                                 <div class="x_content">
-                                    <form action="choices/form_upload.html" class="dropzone" style="border: 1px solid #e5e5e5; height: 200px; "></form>
+                                    <form action="choices/form_upload.html" class="dropzone" style="border: 1px solid #e5e5e5; height: 200px; "></form>                                  
                                 </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 col-md-offset-1">
+                            <h2 class="venue-header">Personal Information</h2>
+                                <form class="form-horizontal form-label-left">
+                                    <div class="form-group">
+                                        <label>First Name</label>
+                                        <input type="text" class="form-control venue-field" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Last Name</label>
+                                        <input type="password" class="form-control venue-field" placeholder="">
+                                    </div>                                                                   
+                                </form>                            
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 col-md-offset-1">
+                            <h2 class="venue-header">Account Information</h2>
                                 <form class="form-horizontal form-label-left">
                                     <div class="form-group">
                                         <label>Username</label>
@@ -159,59 +178,9 @@
                                         <label>Confirm Password</label>
                                         <input type="password" class="form-control venue-field" placeholder="">
                                     </div>
-                                </form>
-                        </div>
-                        <div class="col-md-3 col-sm-12 col-xs-12 col-md-offset-1">
-                            <h2 class="venue-header">Venue Information</h2>
-                                <form class="form-horizontal form-label-left">
-                                    <div class="form-group">
-                                        <label>Venue Name</label>
-                                        <input type="text" class="form-control venue-field" placeholder="">
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Email Address</label>
-                                        <input type="email" class="form-control venue-field" placeholder="">
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Contact Number</label>
-                                        <input type="text" class="form-control venue-field" placeholder="">
-                                    </div>
-                                    <div class="form-group">
-                                        <label>City</label>
-                                        <select class="form-control venue-field">
-                                            <option>Oh yeah!</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Map Location Link</label>
-                                        <input type="email" class="form-control venue-field" placeholder="">
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Street Address</label>
-                                        <textarea class="form-control venue-field">
-                                            
-                                        </textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Description</label>
-                                        <textarea class="form-control venue-field">
-                                            
-                                        </textarea>
-                                    </div>                                                                        
+                                    <a href="#" class="add-venue-btn">Save</a>                                                                   
                                 </form>                            
                         </div>
-                        <div class="col-md-3 col-sm-12 col-xs-12 col-md-offset-1">
-                                <form class="form-horizontal form-label-left">
-                                    <h2 class="venue-header">Venue Experience & Amenity</h2>
-                                    <div class="form-group">
-                                        <label>Experience</label>
-                                        <select class="form-control venue-field">
-                                            <option>Oh yeah!</option>
-                                        </select>
-                                    </div>
-                                    <a href="#" class="add-venue-btn">Update Venue</a>
-                                </form>
-                        </div>                        
 
             </div>
             <!-- /page content -->
